@@ -38,6 +38,10 @@ function myError(e) {
 function myGameEnd(e) {
   //e is gameResultsArray
   console.log(e);
+  setTimeout(function() {
+    document.getElementById("hah2").className = "showBox1";
+    document.getElementById("goTo").innerHTML = "</a> <meta http-equiv='refresh' content='7; URL=https://google.com' />";
+  }, 4000);
 }
 
 function init() {
