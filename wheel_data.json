@@ -33,7 +33,7 @@
   "numSpins": 1 ,
   "spinDestinationArray":[],
   "minSpinDuration":6,
-  "gameOverText":"null,
+  "gameOverText":null,
   "invalidSpinText":"INVALID SPIN. PLEASE SPIN AGAIN.",
   "introText":"جرب حظك",
   "hasSound":true,
