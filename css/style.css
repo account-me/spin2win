@@ -11,6 +11,7 @@ html {
   margin: 0;
   padding: 0;
   background-color: #faebd7;
+  font-family: Droid;
 }
 .wheelContainer{
   position:absolute;
@@ -111,4 +112,47 @@ html {
     font-size:33px;
     line-height:40px;
   }
+}
+
+
+#hah2
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: azure;
+  padding: 25px 10px;
+  font-size: 15px;
+  font-family: Droid;
+  width: 80%;
+
+}
+#hah2 h2
+{
+  color: #e82a62;
+}
+
+.hahButton
+{
+  font-size: 15px;
+    font-family: Droid;
+    background-color: #335599;
+    border: double;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 3px 9px;
+}
+
+.hideBox1
+{
+  display: none;
+}
+
+
+.showBox1
+{
+  display: block !important;
 }
