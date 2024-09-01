@@ -71,10 +71,10 @@ html {
   -ms-user-select: none;     
   user-select: none;  
   line-height:1.5;
-  /* -webkit-transition: font-size .2s ease; */
-  /* transition: font-size .2s ease;  */
-  /* -webkit-transition: line-height .2s ease; */
-  /* transition: line-height .2s ease;  */
+  -webkit-transition: font-size .2s ease;
+  transition: font-size .2s ease; 
+  -webkit-transition: line-height .2s ease;
+  transition: line-height .2s ease; 
 }
 
 
@@ -88,20 +88,20 @@ html {
 @media only screen and (max-width : 480px) {
   .toast p, .toast span{
     font-size:18px;
-    line-height:18px;
+    line-height:25px;
   }
 }
 @media only screen and (min-width : 481px) and (max-width : 800px) {
   .toast p, .toast span{
     font-size:38px;
-    line-height:38px;
+    line-height:45px;
   }
 }
 
 @media only screen and (min-width : 801px)  {
   .toast p, .toast span{
     font-size:58px;
-    line-height:60px;
+    line-height:70px;
   }
 }
 
@@ -109,6 +109,6 @@ html {
 @media only screen and (max-height : 480px) {
   .toast p, .toast span{
     font-size:33px;
-    line-height:35px;
+    line-height:40px;
   }
 }
