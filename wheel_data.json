@@ -33,7 +33,7 @@
   "numSpins": 1 ,
   "spinDestinationArray":[],
   "minSpinDuration":6,
-  "gameOverText":"يرجى <a href='https://google.com'>تسجيل الدخول</a> <meta http-equiv='refresh' content='7; URL=https://google.com' /> لاكتمال تسجيلك في المسابقة",
+  "gameOverText":"null,
   "invalidSpinText":"INVALID SPIN. PLEASE SPIN AGAIN.",
   "introText":"جرب حظك",
   "hasSound":true,
